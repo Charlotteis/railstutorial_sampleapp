@@ -22,7 +22,7 @@ threads threads_count, threads_count
 # block.
 preload_app!
 
-rackip      DefaultRackup
+rackup      DefaultRackup
 port        ENV['PORT'] || 3000
 environment ENV['RAILS_ENV'] || 'development'
 
